@@ -2,7 +2,7 @@
 margin-right: 0px;
 }
 .pages a {
-background: rgba(0,0,0,0.05);
+background: none;
 font-size: 13px;
 font-weight: 500;
 text-transform: uppercase;
@@ -11,10 +11,10 @@ text-transform: uppercase;
 border-radius: 0px;
 border-top: 28px solid rgba(0,0,0,-0.95);
 padding: 16px 15px;
-padding-top:20px;
+padding-top:42px;
 }
 .fixed .pages a {
-background: rgba(0,0,0,0.05);
+background: none;
 font-size: 13px;
 font-weight: 500;
 text-transform: uppercase;
@@ -24,11 +24,13 @@ border-radius: 0px;
 padding: 16px 15px;
 }
 .colored-panel, .type-answer .user-question, .pages a:hover, .invert .fixed .pages a:hover, .invert .pinned .pages a:hover, .invert #sidebar .pages a:hover, .more-likes:hover, .invert-topbar .fixed .pages a:hover, .like_link a:hover, .type-photoset .navi a:hover, #pagination .nextprev a:hover, #group-members li span, #followed li span {
-background-color: #f55b2c;
+background-color: none;
 }
 .pages a:hover {
-background-color: #f55b2c;
-border-top: 28px solid #f55b2c;
+background: none;
+border-top: 5px solid #72bc1b;
+color: #72bc1b;
+text-shadow: none;
 }
 .pinned .inner {
 border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -47,4 +49,11 @@ margin: 15px 10px 0 0;
 }
 .post .post-panel {
 background: rgba(255, 255, 255, 0.9)
+}
+
+#header .blog-title {
+    font-size: 24px;
+    line-height: 1;
+    float: left;
+    padding: 13px 25px 0 0;
 }
